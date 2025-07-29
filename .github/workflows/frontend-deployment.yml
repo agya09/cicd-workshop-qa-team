@@ -64,7 +64,7 @@ jobs:
         node-version: '20'
     
     - name: Install cypress dependencies
-      working-directory: ./cypress
+      working-directory: ./e2e-tests
       run: npm install
 
     - name: Run cypress tests
