@@ -68,8 +68,8 @@ jobs:
       run: npm install
     
     - name: Run app
-      working-directory: ./e2e-tests
-      run: npm run start
+      working-directory: ./frontend
+      run: npm run build
 
     - name: Run cypress tests
       working-directory: ./e2e-tests
