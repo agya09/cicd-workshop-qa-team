@@ -1,5 +1,4 @@
 name: Frontend tests
-
 on:
   push:
   branches: team4-agya
