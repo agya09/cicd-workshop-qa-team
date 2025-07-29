@@ -66,6 +66,10 @@ jobs:
     - name: Install cypress dependencies
       working-directory: ./e2e-tests
       run: npm install
+    
+    - name: Run app
+      working-directory: ./e2e-tests
+      run: npm run start
 
     - name: Run cypress tests
       working-directory: ./e2e-tests
