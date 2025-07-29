@@ -1,7 +1,7 @@
-name: Frontend tests
+name: Frontend Tests
 on:
   push:
-  branches: team4-agya
+    branches: team4-agya
 
 jobs:
   test:
