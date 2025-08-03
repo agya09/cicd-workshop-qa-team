@@ -1,0 +1,7 @@
+name: Backend
+on: [push]
+branches: team4-agya
+jobs:
+  deploy:
+    runs-on:
+      - codebuild-team4-agya-backend-runner-${{ github.run_id }}-${{ github.run_attempt }}
