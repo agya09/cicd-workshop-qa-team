@@ -16,6 +16,8 @@ phases:
 
   build:
     commands:
+      - echo "Running tests"
+      - npm run test:unit
       - echo "Building Frontend application"
       - echo "REACT_APP_API_URL=${REACT_APP_API_URL}" > .env
       - npm run build
